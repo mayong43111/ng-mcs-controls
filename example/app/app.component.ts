@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { McsPageTitleService } from '../../components/title';
+import { McsPageTitleService } from 'ng-mcs-controls';
 
 @Component({
     selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
     ngOnInit(): void {
         this.pageTitle.init({
-            prefix: 'MCS',
+            suffix: 'NG-MCS-CONTROLS',
         });
     }
 }
