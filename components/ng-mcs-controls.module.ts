@@ -1,12 +1,15 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 
 import { MCSButtonModule } from './button/button.module';
+import { MCSChatModule } from './chat/chat.module';
 
 export * from './button';
+export * from './chat';
 
 @NgModule({
     exports: [
-        MCSButtonModule
+        MCSButtonModule,
+        MCSChatModule
     ]
 })
 export class NgMCSControlsModule {
