@@ -3,14 +3,14 @@
   "version": "0.0.0-NOT-USED",
   "scripts": {
     "site:start": "ng serve --port 7777 --open",
+    "site:publish": "ng build ng-mcs-controls-example --prod",
     "generate": "ng build ng-mcs-controls-lib"
   },
   "private": true,
   "dependencies": {
     "@angular/cdk": "^7.3.0",
     "@angular/pwa": "^0.12.2",
-    "@ng-bootstrap/schematics": "^2.0.0-alpha.1",
-    "@ng-bootstrap/ng-bootstrap": "^2.0.0-alpha.0",
+    "@ng-bootstrap/ng-bootstrap": "^4.1.0",
     "bootstrap": "^4.0.0"
   },
   "devDependencies": {

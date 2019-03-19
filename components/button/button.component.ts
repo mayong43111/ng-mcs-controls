@@ -19,6 +19,8 @@ import {
 })
 export class MCSButtonComponent implements AfterContentInit, OnInit, OnDestroy, OnChanges {
 
+    public nzLoading: boolean;
+
     ngAfterContentInit(): void {
     }
 
