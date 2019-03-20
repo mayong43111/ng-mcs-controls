@@ -1,1 +1,1 @@
-export * from './pageTitle.service';
+export * from './public-api';

@@ -3,12 +3,7 @@ import { Title } from '@angular/platform-browser';
 import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
 import { filter, map, switchMap } from 'rxjs/operators';
 
-export interface IMcsPageTitleServiceOptions {
-    defaultPageTitle?: string;
-    prefix?: string;
-    suffix?: string;
-    separator?: string;
-}
+import { IMcsPageTitleServiceOptions } from './iPageTitle.service.options';
 
 @Injectable({
     providedIn: 'root',

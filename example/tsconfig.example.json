@@ -1,14 +1,8 @@
 {
     "extends": "../tsconfig.json",
     "compilerOptions": {
-        "baseUrl": "./",
         "outDir": "../site/app",
-        "types": [],
-        "paths": {
-            "ng-mcs-controls": [
-                "../components/ng-mcs-controls.module.ts"
-            ]
-        }
+        "types": []
     },
     "exclude": []
 }

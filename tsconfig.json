@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -18,6 +19,11 @@
     ],
     "noUnusedParameters": true,
     "noUnusedLocals": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+        "ng-mcs-controls": [
+            "components/ng-mcs-controls.module.ts"
+        ]
+    }
   }
 }
